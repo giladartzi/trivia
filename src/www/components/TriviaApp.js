@@ -1,7 +1,13 @@
 import React from 'react';
+import AppBar from 'material-ui/lib/app-bar';
 
 const TriviaApp = () => {
-    return <h1>Trivia App</h1>;
+    return (
+        <AppBar
+            title="Trivia"
+            iconClassNameRight="muidocs-icon-navigation-expand-more"
+        />
+    );
 };
 
 export default TriviaApp;
